@@ -417,7 +417,16 @@ h2{
 }
 
 .profile {
-	padding:3em;
+	padding:9em 12em;
+}
+
+.gradientprofile {
+  width: 15em;
+  height: 25em;
+}
+
+.aboutmoi {
+  padding: 10em 10em 0em 0em; 
 }
 
 nav#main-nav ul > li > a {
