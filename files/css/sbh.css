@@ -1,0 +1,562 @@
+@font-face {
+    font-family: Brown;
+    src: url(../fonts/Brown-Regular.otf);}
+
+@font-face {
+    font-family: Brown Italic;
+    src: url(../fonts/Brown-Regular-Italic.otf);}
+
+@font-face {
+    font-family: Brown Bold;
+    src: url(../fonts/Brown-Bold.otf);}
+
+@font-face {
+    font-family: Brown Bold Italic;
+    src: url(../fonts/Brown-Bold-Italic.otf);}
+
+/*----------------------------------------------
+
+21. CUSTOM STYLE
+
+------------------------------------------------*/
+
+body {
+	font-family: Brown;
+	color:white;
+	font-size: 16.5px;
+	line-height: 1.9em;
+	letter-spacing: 0.01em;
+	background: black;
+}
+
+a {
+	color: #fcac90;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+	color: white;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+p {
+	color: #fff;
+}
+
+
+
+h2, h4, h1 {
+font-family: termina, sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+h4 {
+	font-size:2.25em;
+}
+
+h2{
+	font-size:2.5em;
+}
+
+h1{
+	font-size:3em;
+  line-height: 1.25em;
+}
+
+.text-dark p {
+	color:#333;
+}
+
+h5 {
+	font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: termina, arial;
+	  font-weight: 600;
+	  letter-spacing: 0.05em;
+    padding-bottom: 0em;
+    line-height: 25px;
+}
+
+h6, .instafeed span {
+	font-size: 1em;
+    text-transform: uppercase;
+    font-family: termina, arial;
+	  font-weight: 600;
+	  letter-spacing: 0.05em;
+    padding-bottom: 0em;
+    line-height: 25px;
+}
+
+.instafeed span a {
+	color: #fcac90;
+}
+
+.instafeed span a:hover {
+	color: #fff;
+}
+
+
+.title-alt {
+	font-size: 1.2em;
+}
+
+#page-title{
+	text-transform: uppercase;
+}
+
+#page-title h1{
+	font-weight: 600;
+	letter-spacing: 0.05em;}
+
+
+::selection {
+	background-color: #ef3f3e;
+	color: white;
+}
+
+/*---- NAV ---*/
+
+nav#main-nav ul > li > a {
+	color: #fcac90;
+	font-size: 2em;
+    font-family: termina, arial;
+	font-weight: 500;
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 1.25em;
+	letter-spacing: 0.05em;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#menu-inner {
+	border-left:none;
+}
+
+
+#header #logo img{
+	padding-top: 0px;
+	height: 45px;
+}
+
+
+.menu-toggle {
+	padding-top: 15px;
+}
+
+.sbhlogo a{
+	color: white;
+	opacity: 1;
+	font-size: 2em;
+	font-family: brown bold;
+}
+
+.sbhlogo a:hover{
+	opacity: 0.6;
+}
+
+
+/*.firstabout {
+	background-color:#fcac90;
+}
+
+.firstabout p, h2{
+	color:black;
+}*/
+
+
+.intro {
+	margin: 0em 0em;
+	padding: 7em 9em;
+	height: auto;
+	background-color:#fcac90;
+}
+
+
+.intro h1 {
+font-size: 2.8em;
+font-family: Brown, arial, sans-serif;
+line-height: 1.25em;
+letter-spacing: -0.01em;
+text-transform: none;
+color: #000;}
+
+
+.wwu-phones li{
+	list-style: none;
+	padding: 7em;
+}
+
+
+/*ABOUT*/
+
+.contactsection {
+	background-color:#161719;
+  padding: 2em 0em;
+}
+
+.contactlinks{
+	list-style: none;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.contactlinks li {
+	padding-top: 0.3em;
+}
+
+.contactsection a {
+	font-size: 1.25em;
+	color:#fcac90;
+}
+
+.contactsection a:hover {
+	padding-top: 0.2em;
+	color:white;
+}
+
+
+
+/*** effect - image opacity ***/
+
+.img-opacity img {position:absolute;top:0px;right:0px;bottom:0px;left:0px}
+
+.img-opacity .img-1 {opacity:1}
+.img-opacity .img-2 {opacity:0}
+.img-opacity:hover .img-1 {opacity:0}
+.img-opacity:hover .img-2 {opacity:1}
+
+.img-opacity img
+{
+transition:all .6s ease-in-out;
+-webkit-transition:all .6s ease-in-out;
+-moz-transition:all .6s ease-in-out;
+-ms-transition:all .6s ease-in-out;
+-o-transition:all .6s ease-in-out;
+}
+
+.img-opacity:hover img
+{
+transition:all 1.2s ease-in-out;
+-webkit-transition:all 1.2s ease-in-out;
+-moz-transition:all 1.2s ease-in-out;
+-ms-transition:all 1.2s ease-in-out;
+-o-transition:all 1.2s ease-in-out;
+}
+
+
+/****** image hover ******/
+
+.image-hover * {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.image-hover {position:relative;width:450px;height:200px;display:inline-block;overflow:hidden;}
+.image-hover a {text-decoration:none}
+
+
+
+
+
+
+
+p a:not(.entry-navigation__item):not(.post-edit-link):not(.fancybox):not(.button):not(.image-text-link) {
+	color:#fcac90;
+	border-color: transparent;
+}
+
+p a:not(.entry-navigation__item):not(.post-edit-link):not(.fancybox):not(.button):not(.image-text-link):hover{
+	color:#666;
+	border-color: transparent;
+}
+
+p {
+	margin-bottom: 2em;
+}
+
+
+.gradientprofile {
+  padding: 6em;
+  top: 8em;
+  margin-left: 6em;
+  width: 8em;
+  height: 16em;
+  z-index: -333333;
+  background-image: linear-gradient(to bottom, #fcac90, #9bd3c3);
+  position: absolute;
+}
+
+
+.profile {
+	padding: 6.5em 4em 6em 9.5em;
+  z-index: 999999999;
+}
+
+.aboutmoi {
+	padding: 8.5em 8em 0em 0em;
+}
+
+.text-light button, button .button{
+	background: transparent;
+	color: #fcac90;
+	font-size: 0.9em;
+	font-family: Brown;
+	text-transform: uppercase;
+	border: 2px solid #fcac90;
+	letter-spacing: 0.2em;
+	padding: 14px 16px;
+}
+
+.text-light button:hover {
+	background: #fcac90;
+	color: #000000;
+}
+
+.insta-links button {
+	width: 300px;
+	line-height: 1.5em;
+	font-size: 1.1em;
+}
+
+.shopsection button{
+  background: transparent;
+	color:  white;
+  border: 2px solid white;
+}
+
+.shopsection button:hover{
+  background: white;
+}
+
+
+.thumb-hover .overlay-caption .caption-sub, .thumb-hover .overlay-caption .caption-name {
+	line-height: 1.2em !important;
+}
+
+
+.logocap {
+	font-size: 0.85em;
+}
+
+
+.caption-sub .caption-name .portfolio-category .portfolio-name {
+	font-family: Brown;
+}
+
+
+footer {
+	color: #666;
+	line-height: 2em;
+}
+
+
+footer .socialmedia-widget li a{
+	color: #666;
+}
+
+/*---- THUMBNAIL ---*/
+
+
+.caption-sub .caption-name .portfolio-category .portfolio-name {
+	color: #fff;
+}
+
+.caption-sub .caption-name .portfolio-category .portfolio-name {
+	color: #fff;
+}
+
+
+/*---- PROJECT PAGE ---*/
+
+
+.project-desc h5 {
+	font-size: 0.85em;
+	font-family: brown;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+
+
+
+
+/*---- LARGE (iMac) ---*/
+
+@media only screen and (min-width: 1320px) {
+
+body {
+	font-family: Brown;
+	color:white;
+	font-size: 17.5px;
+	line-height: 1.95em;
+}
+
+.intro h1 {
+	font-size: 3.5em;}
+
+.intro {
+	padding: 9.5em 19em;
+}
+
+h4 {
+	font-size:2.8em;
+}
+
+h2{
+	font-size:3.2em;
+}
+
+.profile {
+	padding:3em;
+}
+
+nav#main-nav ul > li > a {
+	font-size: 1.8em;}
+
+} /*---- END QUERY ---*/
+
+
+
+
+/*---- TABLET ---*/
+@media only screen and (max-width: 1024px)  {
+
+.intro h1 {
+	font-size: 2.6em;
+	line-height: 1.25em;}
+
+.intro {
+	padding: 6em 9em;
+}
+
+nav#main-nav ul > li > a {
+	font-size: 2.25em;}
+
+h2{
+	font-size:2.1em;
+	line-height: 1.2em;
+}
+
+
+.gradientprofile {
+  top: 9em;
+  margin-left: 3em;
+  width: 8em;
+  height: 16em;
+}
+
+
+.profile{
+  padding: 3em 2em 0em 7em;
+}
+
+.aboutmoi {
+  padding: 9em 5em 9em 1em;
+}
+
+} /*---- END QUERY ---*/
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .aboutpic {
+    width: 85%;
+  	padding: 0em;
+  }
+
+  .aboutmoi {
+    width: 98%;
+    padding: 6em;
+  }
+
+.profile {
+	padding: 6em 6em 0em 6em;
+}
+
+.contactsection{
+	padding-left: 2.5em;}
+
+
+.desc-spacing {
+  padding: 1em 5em;
+}
+
+  .intro {
+  	padding: 5em 2em;
+  }
+
+  .intro h1 {
+  	font-size: 2.3em;
+  	line-height: 1.3em;}
+
+
+  .aboutmoi {
+      width: 100%;
+      padding: 5em 2.5em;
+    }
+
+
+}
+
+/*---- MOBILE ---*/
+
+@media only screen and (max-width: 767px) {
+
+.intro {
+  	padding: 8em 1.8em;
+  }
+
+.desc-spacing {
+    padding: 1em;
+  }
+
+nav#main-nav ul > li > a {
+	font-size: 1.6em;}
+
+
+.profile {
+	padding: 4em 2em 0em 2em;
+}
+
+.wwu-phones li{
+	list-style: none;
+	padding: 2em;
+}
+
+h4 {
+	font-size:2em;
+}
+
+h2{
+	font-size:2.25em;
+	line-height: 1.2em;
+}
+
+.text-light button, button .button{
+	font-size: 0.85em;
+	padding: 18px 25px;
+}
+
+.insta-links button {
+	font-size: 1em;
+}
+
+#header #logo img{
+	padding-top: 5px;
+	height: 38px !important;
+}
+
+
+
+} /*---- END QUERY ---*/
