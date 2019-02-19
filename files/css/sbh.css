@@ -515,7 +515,7 @@ h2{
 
   .aboutmoi {
       width: 100%;
-      padding: 5em 2.5em;
+      padding: 2em 2.5em 3em;
     }
 
 
@@ -540,6 +540,14 @@ nav#main-nav ul > li > a {
 .profile {
 	padding: 4em 2em 0em 2em;
 }
+
+.gradientprofile {
+  width: 6em;
+  top: 2em;
+  height: 12em;
+  margin-left: 0em;
+}
+
 
 .wwu-phones li{
 	list-style: none;
